@@ -5,8 +5,6 @@ const progressSteps = document.querySelectorAll('.progress__step');
 
 let currentActive = 1;
 
-console.log(progressSteps);
-
 next.addEventListener('click', () => {
     currentActive++;
     if (currentActive > progressSteps.length) {
